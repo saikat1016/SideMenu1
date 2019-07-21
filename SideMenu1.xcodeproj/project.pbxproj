@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		4A8AD4CA22DC3BA600CCCC6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8AD4C922DC3BA600CCCC6D /* AppDelegate.swift */; };
-		4A8AD4CC22DC3BA600CCCC6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8AD4CB22DC3BA600CCCC6D /* ViewController.swift */; };
+		4A8AD4CC22DC3BA600CCCC6D /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8AD4CB22DC3BA600CCCC6D /* RootViewController.swift */; };
 		4A8AD4CF22DC3BA600CCCC6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A8AD4CD22DC3BA600CCCC6D /* Main.storyboard */; };
 		4A8AD4D122DC3BB300CCCC6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A8AD4D022DC3BB300CCCC6D /* Assets.xcassets */; };
 		4A8AD4D422DC3BB300CCCC6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A8AD4D222DC3BB300CCCC6D /* LaunchScreen.storyboard */; };
+		4A98525822DDA2AC00799488 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A98525722DDA2AC00799488 /* SideMenuViewController.swift */; };
+		4A98525A22DDA2DE00799488 /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A98525922DDA2DE00799488 /* DetailedViewController.swift */; };
+		5409428D40C174C6CC9653FA /* Pods_SideMenu1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB466298B2DAD36E7FC9B14 /* Pods_SideMenu1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07586C11C63FEAE9E5117EBE /* Pods-SideMenu1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideMenu1.release.xcconfig"; path = "Pods/Target Support Files/Pods-SideMenu1/Pods-SideMenu1.release.xcconfig"; sourceTree = "<group>"; };
 		4A8AD4C622DC3BA600CCCC6D /* SideMenu1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideMenu1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A8AD4C922DC3BA600CCCC6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4A8AD4CB22DC3BA600CCCC6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A8AD4CB22DC3BA600CCCC6D /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		4A8AD4CE22DC3BA600CCCC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A8AD4D022DC3BB300CCCC6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A8AD4D322DC3BB300CCCC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A8AD4D522DC3BB300CCCC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A98525722DDA2AC00799488 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		4A98525922DDA2DE00799488 /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
+		69A04004B1CF0AD1BB78E8E1 /* Pods-SideMenu1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideMenu1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SideMenu1/Pods-SideMenu1.debug.xcconfig"; sourceTree = "<group>"; };
+		8BB466298B2DAD36E7FC9B14 /* Pods_SideMenu1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SideMenu1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5409428D40C174C6CC9653FA /* Pods_SideMenu1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		120194563EC0113905C433C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BB466298B2DAD36E7FC9B14 /* Pods_SideMenu1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4A8AD4BD22DC3BA600CCCC6D = {
 			isa = PBXGroup;
 			children = (
 				4A8AD4C822DC3BA600CCCC6D /* SideMenu1 */,
 				4A8AD4C722DC3BA600CCCC6D /* Products */,
+				62F6AE7BC34FD62E530E9569 /* Pods */,
+				120194563EC0113905C433C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +74,24 @@
 			isa = PBXGroup;
 			children = (
 				4A8AD4C922DC3BA600CCCC6D /* AppDelegate.swift */,
-				4A8AD4CB22DC3BA600CCCC6D /* ViewController.swift */,
+				4A8AD4CB22DC3BA600CCCC6D /* RootViewController.swift */,
 				4A8AD4CD22DC3BA600CCCC6D /* Main.storyboard */,
 				4A8AD4D022DC3BB300CCCC6D /* Assets.xcassets */,
 				4A8AD4D222DC3BB300CCCC6D /* LaunchScreen.storyboard */,
 				4A8AD4D522DC3BB300CCCC6D /* Info.plist */,
+				4A98525722DDA2AC00799488 /* SideMenuViewController.swift */,
+				4A98525922DDA2DE00799488 /* DetailedViewController.swift */,
 			);
 			path = SideMenu1;
+			sourceTree = "<group>";
+		};
+		62F6AE7BC34FD62E530E9569 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69A04004B1CF0AD1BB78E8E1 /* Pods-SideMenu1.debug.xcconfig */,
+				07586C11C63FEAE9E5117EBE /* Pods-SideMenu1.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A8AD4D822DC3BB300CCCC6D /* Build configuration list for PBXNativeTarget "SideMenu1" */;
 			buildPhases = (
+				93279A12FEE28012DF6A7091 /* [CP] Check Pods Manifest.lock */,
 				4A8AD4C222DC3BA600CCCC6D /* Sources */,
 				4A8AD4C322DC3BA600CCCC6D /* Frameworks */,
 				4A8AD4C422DC3BA600CCCC6D /* Resources */,
+				0DC5EAE96A65753803ED440E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +162,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DC5EAE96A65753803ED440E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SideMenu1/Pods-SideMenu1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SideMenu1/Pods-SideMenu1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93279A12FEE28012DF6A7091 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SideMenu1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4A8AD4C222DC3BA600CCCC6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A8AD4CC22DC3BA600CCCC6D /* ViewController.swift in Sources */,
+				4A8AD4CC22DC3BA600CCCC6D /* RootViewController.swift in Sources */,
+				4A98525822DDA2AC00799488 /* SideMenuViewController.swift in Sources */,
+				4A98525A22DDA2DE00799488 /* DetailedViewController.swift in Sources */,
 				4A8AD4CA22DC3BA600CCCC6D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +361,7 @@
 		};
 		4A8AD4D922DC3BB300CCCC6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69A04004B1CF0AD1BB78E8E1 /* Pods-SideMenu1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +379,7 @@
 		};
 		4A8AD4DA22DC3BB300CCCC6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07586C11C63FEAE9E5117EBE /* Pods-SideMenu1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
